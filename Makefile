@@ -1,9 +1,13 @@
 .PHONEY: build
 .DEFAULT_GOAL := build
 
-APP_NAME := "sleep"
+APP_NAME := "bubble-sleep"
 
-build:
+clean:
+	@echo "Cleaning..."
+	@rm -rf bin/*
+
+build: clean
 	@echo "Building..."
 	@go build -o bin/$(APP_NAME) .
 

@@ -1,4 +1,4 @@
-module sleep
+module github.com/remiposo/bubble-sleep
 
 go 1.20
 

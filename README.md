@@ -1,2 +1,2 @@
 # bubble-sleep
-rich UI sleep using bubbletea
+Rich UI sleep using bubbletea
